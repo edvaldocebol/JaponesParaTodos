@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* ...........................................................................CONTEINER 1 */
+
+
+.conteiner1 {
+    /* border: 1px solid red; */
+    /* height: 300px; */
+    background-color: #FFCB51;
+}
+
+.botaotopo {
+    margin-top: 10px;
+}
+
+.botaologin {
+    margin-left: 600px;
+}
+
+.slogan {
+    /* margin-top: 70px; */
+    text-align: center;
+}
+
+.imgtopo {
+    width: 500px;
+    height: 500px;
+}
+
+footer {
+    background-color: black;
+}
+
+
+
+
+
+
+/* .............................................................................CONTEINER 2 */
+
+
+.conteiner2 {
+    background-color: black;
+
+}
+
+.alfabeto {
+    width: 190px;
+    height: 250px;
+    /* margin-left: 200px; */
+}
+
+.cartao {
+    background-color: rgb(236, 233, 233);
+}
+
+.textocard {
+    font-size: 10px;
+}
+
+
+
+
+/* ..............................................................................CONTEINER 3 */
+
+.conteiner3 {
+    background-color: #FFCB51;
+}
+
+.cel {
+    background-color: #FFCB51;
+
+}
+
+.celular {
+    width: 500px;
+    height: 266px;
+
+}
+
+.listainformaçoes {
+    list-style: none;
+}
+
+.icones {
+    width: 30px;
+    height: 30px;
+    /* margin-top: 30px; */
+    /* display: flex; */
+}
+
+.textoinformativo {
+    margin-top: 30px;
+    margin-right: 400px;
+    font-size: 25px;
+}
+
+.botaobaixar {
+    border-radius: 5px;
+    margin-top: 60px;
+    background-color: transparent;
+    border-color: transparent;
+    margin-right: 174px;
+    height: 10px;
+    width: 20px;
+}
+
+.botaoplay {
+    height: 60px;
+    width: 157px;
+}
+
+.botaobiblioteca {
+    margin-right: 400px;
+}
+
+
+/* ..............................................................................FOOTER */
+
+.footer {
+    height: 100px;
+    padding: 100px;
+    margin-bottom: 90px;
+
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+
+}
+
+.card-text {
+    color: black;
+}
+
+.card-title {
+    color: black;
+}
+
+.pe {
+    background-color: black;
+    height: 250px;
+}
+
+
+.icone {
+    width: 80px;
+    height: 88px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+
+
+/* ...................................................Loading */
+
+.loading-container {
+    display: none;
+    /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Fundo semi-transparente */
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    /* Z-index alto para garantir que fique acima de outros elementos */
+}
+
+.spinner {
+    border: 10px solid rgba(0, 0, 0, 0.1);
+    border-top: 10px solid #3498db;
+    /* Cor do spinner */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    animation: spin 1s linear infinite;
+    /* Animação de rotação */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
